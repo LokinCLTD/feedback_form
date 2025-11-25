@@ -25,7 +25,7 @@ const FeedbackForm = () => {
         Email: ${formData.email}
         Feedback: ${formData.feedback}
      `;
-    const isConfirmed= window.confirm(`Please confirm your details:\n\n${confirmationMneassage}`);
+    const isConfirmed= window.confirm(`Please confirm your details:\n\n${confirmationMenssage}`);
      if (isConfirmed) {
             console.log('Submiting feedback:', formData);
             setFormData({
